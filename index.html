@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" type="image/png" href="./static/favicon.png" />
+    <title>Shiv's Portfolio</title>
+    <link as="style" href="./static/style.css" rel="preload" />
+    <link href="./static/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <noscript
+      ><strong>Please enable JavaScript it to continue.</strong></noscript
+    >
+    <div class="grid-container">
+      <div class="grid-lines">
+        <div class="grid-lines-inner">
+          <div class="grid-ground"></div>
+          <div class="horizontal">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <div class="vertical">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <div class="logo">
+        <h1>Shiv Pratap Singh</h1>
+        <h2>Portfolio</h2>
+        <svg height="160" width="200" class="triangle">
+          <defs>
+            <lineargradient id="grad1" x1="0%" y1="100%" x2="100%" y2="0%">
+              <stop
+                offset="0%"
+                style="stop-color: rgb(50, 50, 50); stop-opacity: 1"
+              ></stop>
+              <stop
+                offset="100%"
+                style="stop-color: black; stop-opacity: 1"
+              ></stop>
+            </lineargradient>
+            <filter id="dropshadow" height="130%">
+              <fegaussianblur
+                in="SourceAlpha"
+                stdDeviation="3"
+              ></fegaussianblur>
+              <feoffset dx="2" dy="2" result="offsetblur"></feoffset>
+              <femerge>
+                <femergenode></femergenode>
+                <femergenode in="SourceGraphic"></femergenode>
+              </femerge>
+            </filter>
+          </defs>
+          <polygon
+            points="0,0 200,0 100,150"
+            stroke="#56f836"
+            stroke-width="3"
+          ></polygon>
+        </svg>
+      </div>
+
+      <div data-v-6d57537a="" class="audio">
+        <div data-v-6d57537a="" class="controls">
+          <button data-v-6d57537a="" class="play" id="enableMusicButton">Enable Music</button>
+          <audio id="audioClip" src="./static/audioFile.mp3" loop></audio>
+          <button data-v-6d57537a="" class="mute" id="muteButton" style="display: none">
+            Mute
+          </button>
+        </div>
+        <div data-v-6d57537a="" class="credits">
+          <a
+            data-v-6d57537a=""
+            href="https://freemusicarchive.org/music/Timecrawler_82/Osaka_Lights/Street_Dancing"
+          >
+            Music: Street Dancing by Timecrawler 82
+          </a>
+        </div>
+      </div>
+      <div data-v-b190824a="" class="clock">
+        <div data-v-b190824a="">
+          <p data-v-b190824a="" id="timeDisplay">00:00:00</p>
+        </div>
+      </div>
+      <div data-v-27214deb="" class="stats active">
+        <ul data-v-27214deb="">
+          <li data-v-27214deb="">Portfolio</li>
+          <li data-v-27214deb="">Owner: Shiv Pratap Singh</li>
+          <li data-v-27214deb="">Style: Retro</li>
+          <li data-v-27214deb="">Inspired From: GTA Vice City</li>
+        </ul>
+      </div>
+      <div data-v-b37a4198="">
+        <div data-v-b37a4198="" class="content">
+          <div
+            data-v-704b5ceb=""
+            data-v-b37a4198=""
+            class="container"
+            style="display: block"
+          >
+            <div data-v-704b5ceb="" class="banner">
+              <div data-v-704b5ceb="" class="inner">
+                <p data-v-704b5ceb="" id="header">[shiv@portfolio ~] $ ./intro</p>
+                <h5 data-v-704b5ceb="">[Introduction]</h5>
+                <div data-v-704b5ceb="" class="container u-full-width">
+                  <div data-v-704b5ceb="" class="row">
+                    <div data-v-704b5ceb="" class="four columns">
+                      <ul data-v-704b5ceb="">
+                        <li data-v-704b5ceb="">
+                          <span data-v-704b5ceb=""><b>Companies Secured:</b></span>
+                          <em data-v-704b5ceb="">100+</em>
+                        </li>
+                        <li data-v-704b5ceb="">
+                          <span data-v-704b5ceb=""><b>Bugs Reported:</b></span>
+                          <em data-v-704b5ceb=""
+                            >350+</em
+                          >
+                        </li>
+                        <li data-v-704b5ceb="">
+                          <span data-v-704b5ceb=""><b>Country:</b></span>
+                          <em data-v-704b5ceb="">India</em>
+                        </li>
+                        <li data-v-704b5ceb="">
+                          <span data-v-704b5ceb=""><b>City:</b></span>
+                          <em data-v-704b5ceb="">Unkown</em>
+                        </li>
+                        <li data-v-704b5ceb="">
+                          <span data-v-704b5ceb=""><b>Tags:</b></span>
+                          <em data-v-704b5ceb="">Bug Bounty Hunter, Pentester, App. Sec. Engineer</em>
+                        </li>
+                      </ul>
+                    </div>
+                    <div data-v-704b5ceb="" class="eight columns">
+                      <pre data-v-704b5ceb="" id="intro"></pre>
+                    </div>
+                  </div>
+                </div>
+                <p data-v-704b5ceb="" class="footer">[shiv@portfolio ~] $ </p>
+              </div>
+            </div>
+            <div data-v-704b5ceb="" class="u-center">
+              <br data-v-704b5ceb="" />
+              <a
+                data-v-704b5ceb=""
+                href="#"
+                target="_blank"
+                class="button button-primary"
+              >
+                Next
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
